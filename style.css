@@ -1,0 +1,58 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+body{
+    background-color: rgb(61, 177, 94);
+}
+#main{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+#bigbox{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    position: relative;
+}
+#ab{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 45px;
+}
+
+.box{
+   
+    border: 2px  solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .box:hover{
+    background-color: rgb(211, 199, 225);
+}
+.gameInfo{
+    margin: 30px;
+    font-weight: 800;
+    
+}
+#reset{
+    padding: 5px 10px;
+    margin-left: 40px;
+    font-size: 20px;
+    background-color: rgb(68, 80, 80); 
+}
+#reset:hover{
+    background-color: rgb(107, 103, 103);
+}
+.info{
+    font-size: 25px;
+}
+
+
+
